@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState, type ReactNode } from "react";
+import perspikappsLogo from "@/assets/perspikapps-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
