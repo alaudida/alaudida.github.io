@@ -300,7 +300,7 @@ function Index() {
               padding: "var(--sp-3)",
               borderRadius: "var(--radius-control)",
               marginBottom: "var(--sp-4)",
-              maxWidth: "72ch",
+              maxWidth: "640px",
             }}
           >
             <img
