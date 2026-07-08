@@ -647,6 +647,10 @@
   background: var(--ink);
   color: var(--paper);
   padding: var(--sp-6) 0 var(--sp-4);
+  clip-path: polygon(0 4vw, 100% 0, 100% 100%, 0 100%);
+  margin-top: -4vw;
+  position: relative;
+  z-index: 1;
 }
 .al-footer-top {
   display: grid;
