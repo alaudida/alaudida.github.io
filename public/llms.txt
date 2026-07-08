@@ -1,0 +1,9 @@
+# Alaudida
+
+> Conseil en stratégie digitale pour le monde industriel, studio de développement logiciel et mentorat. Paris, France.
+
+Alaudida accompagne les industriels dans leur transformation digitale en alliant conseil stratégique, développement logiciel sur mesure et transmission de savoir-faire par le mentorat. Le site présente les trois facettes de l'activité — stratégie, studio et mentorat — ainsi que les produits logiciels développés en interne et les contributions open source.
+
+## Pages
+
+- [Accueil](/): Présentation d'Alaudida, ses activités (stratégie, studio, mentorat), ses produits et ses projets open source.
