@@ -277,8 +277,8 @@ function Index() {
                 <h3>Deskale</h3>
                 <span className="strap">Vos données, vos règles</span>
                 <p>
-                  Deskale relie le terrain au cloud sans jamais faire transiter vos données par un tiers — une infrastructure
-                  edge-to-cloud pensée pour rester souveraine et maîtrisée.
+                  Deskale relie le terrain au data center sans jamais faire transiter vos données par un tiers — une infrastructure
+                  edge-to-cloud pensée pour votre autonomie opérationnelle, quoi qu'il arrive.
                 </p>
                 <Btn variant="line" href="mailto:hello@alaudida.fr">
                   En savoir plus
