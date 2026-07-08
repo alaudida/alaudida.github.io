@@ -294,7 +294,7 @@ function Index() {
           <div className="al-wrap">
             <div className="al-section-head">
               <Eyebrow inverse>Open Source</Eyebrow>
-              <h2 style={{ marginTop: "0.5rem" }}>Le code qu'on partage</h2>
+              <h2 style={{ marginTop: "0.5rem" }}>Le code que l'on vous partage</h2>
             </div>
             <p style={{ marginTop: "-2.5rem", marginBottom: "var(--sp-4)", maxWidth: "60ch" }}>
               Nos librairies internes, publiques par choix. Utilisez-les,
