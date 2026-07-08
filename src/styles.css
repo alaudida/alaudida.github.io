@@ -441,12 +441,13 @@
   padding: var(--sp-6) 0;
   background: var(--paper);
   color: var(--ink);
+  clip-path: polygon(0 4vw, 100% 0, 100% 100%, 0 calc(100% - 4vw));
+  margin: -4vw 0;
 }
 .al-section.is-dark {
   background: var(--ink);
   color: var(--paper);
-  clip-path: polygon(0 4vw, 100% 0, 100% 100%, 0 calc(100% - 4vw));
-  margin: -4vw 0;
+  z-index: 1;
 }
 .al-section-head {
   max-width: 640px;
@@ -646,6 +647,10 @@
   background: var(--ink);
   color: var(--paper);
   padding: var(--sp-6) 0 var(--sp-4);
+  clip-path: polygon(0 4vw, 100% 0, 100% 100%, 0 100%);
+  margin-top: -4vw;
+  position: relative;
+  z-index: 1;
 }
 .al-footer-top {
   display: grid;
