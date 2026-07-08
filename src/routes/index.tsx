@@ -310,13 +310,21 @@ function Index() {
               height={64}
               style={{ flexShrink: 0, display: "block" }}
             />
-            <div>
-              <div style={{ fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.25rem" }}>
+            <div style={{ color: "var(--ink)" }}>
+              <div style={{ fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.25rem", color: "var(--ink)" }}>
                 Perspikapps
               </div>
-              <p style={{ margin: 0, fontSize: "0.95rem", lineHeight: 1.5 }}>
+              <p style={{ margin: 0, fontSize: "0.95rem", lineHeight: 1.5, color: "var(--ink)" }}>
                 Perspikapps est le studio de développement d'Alaudida. Nous construisons des outils, des librairies et des plateformes — et nous partageons le code qui peut servir à d'autres.
               </p>
+              <a
+                href="https://perspikapps.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "var(--ink)", textDecoration: "underline", textUnderlineOffset: "3px", fontSize: "0.9rem", fontWeight: 600, display: "inline-block", marginTop: "0.6rem" }}
+              >
+                perspikapps.fr →
+              </a>
             </div>
           </div>
           <div className="al-terminal">
