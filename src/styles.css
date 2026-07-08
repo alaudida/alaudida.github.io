@@ -484,7 +484,7 @@
 .al-facet .num {
   font-family: var(--font-mono);
   font-size: 0.75rem;
-  color: rgba(201, 211, 222, 0.65);
+  color: rgba(201, 211, 222, 0.9);
   margin-bottom: var(--sp-3);
   display: block;
 }
@@ -604,7 +604,7 @@
   color: var(--coral-text-on-dark);
 }
 .al-terminal-body .comment {
-  color: var(--slate-2);
+  color: #a0aec0;
 }
 
 /* Courses */
@@ -677,7 +677,7 @@
   padding-top: var(--sp-3);
   font-family: var(--font-mono);
   font-size: 0.75rem;
-  color: rgba(201, 211, 222, 0.65);
+  color: rgba(201, 211, 222, 0.9);
   flex-wrap: wrap;
   gap: 1rem;
 }
