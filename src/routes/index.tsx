@@ -296,20 +296,39 @@ function Index() {
               <span />
             </div>
             <div className="al-terminal-body">
-              <div className="comment"># cloner nos dépôts publics</div>
+              <div className="comment"># nos dépôts publics sur github.com/perspikapps</div>
               <div>
-                <span className="prompt">$ </span>git clone github.com/alaudida
+                <span className="prompt">$ </span>gh repo list perspikapps --public
               </div>
-              <div className="comment">Cloning into 'alaudida'...</div>
-              <div>
-                <span className="prompt">→ </span>
+              {[
+                { name: "laravel-envribbon", desc: "Displays current environment & version in top left corner", lang: "PHP" },
+                { name: "klick-deploy", desc: "Outils de déploiement Klick", lang: "PHP" },
+                { name: "klick-pages", desc: "Moteur de pages Klick", lang: "PHP" },
+                { name: "livewire-history", desc: "Historique de navigation pour Livewire", lang: "PHP" },
+                { name: "perspikapps.github.io", desc: "Site public Perspikapps", lang: "HTML" },
+              ].map((r) => (
+                <div key={r.name}>
+                  <span className="prompt">→ </span>
+                  <a
+                    href={`https://github.com/perspikapps/${r.name}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "var(--coral-text-on-dark)" }}
+                  >
+                    perspikapps/{r.name}
+                  </a>
+                  <span style={{ opacity: 0.6 }}> — {r.desc} [{r.lang}]</span>
+                </div>
+              ))}
+              <div style={{ marginTop: "0.6rem" }}>
+                <span className="prompt">$ </span>
                 <a
-                  href="https://github.com/alaudida"
+                  href="https://github.com/perspikapps"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: "var(--coral-text-on-dark)" }}
                 >
-                  github.com/alaudida →
+                  open github.com/perspikapps →
                 </a>
               </div>
             </div>
