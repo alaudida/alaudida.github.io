@@ -18,7 +18,7 @@ const Arrow = () => (
 );
 
 type BtnProps = {
-  variant?: "primary" | "ghost" | "line";
+  variant?: "primary" | "ghost" | "line" | "white";
   href?: string;
   withArrow?: boolean;
   children: ReactNode;
