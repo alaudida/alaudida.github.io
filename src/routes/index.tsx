@@ -294,7 +294,7 @@ function Index() {
             style={{
               display: "flex",
               gap: "var(--sp-3)",
-              alignItems: "center",
+              alignItems: "flex-start",
               background: "#fff",
               color: "var(--ink)",
               padding: "var(--sp-3)",
