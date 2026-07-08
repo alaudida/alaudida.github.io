@@ -153,15 +153,24 @@ function Index() {
                 <Eyebrow inverse>Alaudida — Stratégies × Solutions</Eyebrow>
               </div>
               <h1>
-                On plie la complexité digitale
+                On plie la complexité
                 <br />
                 jusqu'à ce qu'elle tienne <em>dans votre main.</em>
               </h1>
               <p>
-                Comme une feuille de papier devient un oiseau, un problème
-                compliqué devient une décision simple — avec les bons plis, faits
-                dans le bon ordre. Conseil en stratégie, développement logiciel et
-                mentorat, pour les équipes qui doivent décoller.
+                Comme une feuille devient oiseau, ce qui semblait improbable
+                devient simple et concret, grâce à la bonne approche, aux bons
+                plis, dans le bon ordre.
+              </p>
+              <p>
+                À la fin, personne ne se souvient de la feuille blanche. On ne
+                voit que l'évidence du résultat : une solution simple sans être
+                simpliste, presque naturelle, née d'une conception précise et
+                pragmatique.
+              </p>
+              <p>
+                Conseil en stratégie, développement logiciel et mentorat,
+                pour les équipes qui doivent décoller.
               </p>
               <div className="al-hero-actions">
                 <Btn variant="primary" href="mailto:hello@alaudida.fr">
