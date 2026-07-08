@@ -291,6 +291,7 @@ function Index() {
             forkez-les, proposez une pull request.
           </p>
           <div
+            className="w-full md:w-2/3"
             style={{
               display: "flex",
               gap: "var(--sp-3)",
@@ -300,7 +301,6 @@ function Index() {
               padding: "var(--sp-3)",
               borderRadius: "var(--radius-control)",
               marginBottom: "var(--sp-4)",
-              maxWidth: "640px",
             }}
           >
             <img
