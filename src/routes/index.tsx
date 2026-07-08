@@ -290,9 +290,35 @@ function Index() {
             Nos librairies internes, publiques par choix. Utilisez-les,
             forkez-les, proposez une pull request.
           </p>
-          <p style={{ marginTop: "var(--sp-2)", marginBottom: "var(--sp-3)", maxWidth: "60ch", color: "var(--coral-text-on-dark)" }}>
-            Perspikapps est le studio de développement d'Alaudida. Nous construisons des outils, des librairies et des plateformes — et nous partageons le code qui peut servir à d'autres.
-          </p>
+          <div
+            style={{
+              display: "flex",
+              gap: "var(--sp-3)",
+              alignItems: "center",
+              background: "#fff",
+              color: "var(--ink)",
+              padding: "var(--sp-3)",
+              borderRadius: "var(--radius-control)",
+              marginBottom: "var(--sp-4)",
+              maxWidth: "72ch",
+            }}
+          >
+            <img
+              src={perspikappsLogo.url}
+              alt="Perspikapps"
+              width={64}
+              height={64}
+              style={{ flexShrink: 0, display: "block" }}
+            />
+            <div>
+              <div style={{ fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.25rem" }}>
+                Perspikapps
+              </div>
+              <p style={{ margin: 0, fontSize: "0.95rem", lineHeight: 1.5 }}>
+                Perspikapps est le studio de développement d'Alaudida. Nous construisons des outils, des librairies et des plateformes — et nous partageons le code qui peut servir à d'autres.
+              </p>
+            </div>
+          </div>
           <div className="al-terminal">
             <div className="al-terminal-bar">
               <span />
