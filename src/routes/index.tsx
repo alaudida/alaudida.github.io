@@ -291,7 +291,7 @@ function Index() {
             forkez-les, proposez une pull request.
           </p>
           <div
-            className="w-full md:w-2/3"
+            className="w-full lg:w-2/3"
             style={{
               display: "flex",
               gap: "var(--sp-3)",
@@ -327,7 +327,7 @@ function Index() {
               </a>
             </div>
           </div>
-          <div className="al-terminal w-full md:w-2/3">
+          <div className="al-terminal w-full lg:w-2/3">
             <div className="al-terminal-bar">
               <span />
               <span />
