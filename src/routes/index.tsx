@@ -289,6 +289,9 @@ function Index() {
             Nos librairies internes, publiques par choix. Utilisez-les,
             forkez-les, proposez une pull request.
           </p>
+          <p style={{ marginTop: "var(--sp-2)", marginBottom: "var(--sp-3)", maxWidth: "60ch", color: "var(--coral-text-on-dark)" }}>
+            Perspikapps est le studio de développement d'Alaudida. Nous construisons des outils, des librairies et des plateformes — et nous partageons le code qui peut servir à d'autres.
+          </p>
           <div className="al-terminal">
             <div className="al-terminal-bar">
               <span />
@@ -305,7 +308,6 @@ function Index() {
                 { name: "klick-deploy", desc: "Outils de déploiement Klick", lang: "PHP" },
                 { name: "klick-pages", desc: "Moteur de pages Klick", lang: "PHP" },
                 { name: "livewire-history", desc: "Historique de navigation pour Livewire", lang: "PHP" },
-                { name: "perspikapps.github.io", desc: "Site public Perspikapps", lang: "HTML" },
               ].map((r) => (
                 <div key={r.name}>
                   <span className="prompt">→ </span>
