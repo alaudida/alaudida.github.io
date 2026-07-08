@@ -130,7 +130,7 @@ function Header() {
           <a href="#open-source">Open Source</a>
           <a href="#mentorat">Mentorat</a>
         </div>
-        <Btn variant="ghost" href="mailto:hello@alaudida.fr">
+        <Btn variant="white" href="mailto:hello@alaudida.fr">
           Contact
         </Btn>
       </nav>
