@@ -413,8 +413,27 @@
   }
   .al-hero-bird {
     order: -1;
+    display: block;
+    width: 100%;
+  }
+  .al-hero-bird img {
+    max-width: 220px;
   }
 }
+
+/* White contact button (header) */
+.al-btn-white {
+  background: var(--paper);
+  color: var(--ink);
+  border-color: var(--paper);
+}
+.al-btn-white:hover {
+  background: var(--coral-text-on-dark);
+  border-color: var(--coral-text-on-dark);
+  color: var(--ink);
+  transform: translateY(-2px);
+}
+
 
 /* Fold sections */
 .al-section {
