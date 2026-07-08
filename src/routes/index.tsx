@@ -168,6 +168,10 @@ function Index() {
                 simpliste, presque naturelle, née d'une conception précise et
                 pragmatique.
               </p>
+              <p>
+                Conseil en stratégie, développement logiciel et mentorat,
+                pour les équipes qui doivent décoller.
+              </p>
               <div className="al-hero-actions">
                 <Btn variant="primary" href="mailto:hello@alaudida.fr">
                   Discuter de votre projet
