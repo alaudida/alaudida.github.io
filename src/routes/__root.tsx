@@ -88,10 +88,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "Conseil en stratégie digitale, studio de développement logiciel et mentorat. Alaudida, Paris.",
+          "Conseil en stratégie digitale pour le monde industriel, studio de développement logiciel et mentorat. Alaudida, Paris.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Alaudida — Stratégies × Solutions" },
+      { name: "twitter:description", content: "Conseil en stratégie digitale pour le monde industriel, studio de développement logiciel et mentorat. Alaudida, Paris." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0395cc22-a64b-45e7-be97-595f86bad749/id-preview-454097b2--680f8ffb-dabf-4842-86b4-e5a7f966f0b2.lovable.app-1783532346999.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0395cc22-a64b-45e7-be97-595f86bad749/id-preview-454097b2--680f8ffb-dabf-4842-86b4-e5a7f966f0b2.lovable.app-1783532346999.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
