@@ -112,6 +112,38 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: "https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap",
       },
     ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Alaudida",
+          url: "https://www.alaudida.fr",
+          logo: "https://www.alaudida.fr/brand/logo.svg",
+          sameAs: [],
+        }),
+      },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          name: "Alaudida",
+          description:
+            "Conseil en stratégie digitale pour le monde industriel, studio de développement logiciel et mentorat. Alaudida, Paris.",
+          url: "https://www.alaudida.fr",
+          email: "hello@alaudida.fr",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "15 Rue des Halles",
+            addressLocality: "Paris",
+            postalCode: "75001",
+            addressCountry: "FR",
+          },
+        }),
+      },
+    ],
   }),
   shellComponent: RootShell,
   component: RootComponent,
