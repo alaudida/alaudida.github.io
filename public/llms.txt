@@ -7,3 +7,6 @@ Alaudida accompagne les industriels dans leur transformation digitale en alliant
 ## Pages
 
 - [Accueil](/): Présentation d'Alaudida, ses activités (stratégie, studio, mentorat), ses produits et ses projets open source.
+- [Mentions légales](/mentions-legales): Éditeur, hébergeur, propriété intellectuelle.
+- [Politique de confidentialité](/confidentialite): Traitement des données personnelles (RGPD).
+- [Politique cookies](/cookies): Utilisation des cookies sur le site.
