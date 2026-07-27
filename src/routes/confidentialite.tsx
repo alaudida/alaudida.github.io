@@ -64,12 +64,23 @@ function Confidentialite() {
         messagerie). Aucune donnée n'est cédée ni louée à des tiers.
       </p>
 
+      <h2>Mesure d'audience</h2>
+      <p>
+        Lorsque vous consentez à la mesure d'audience, nous utilisons Google
+        Analytics pour collecter des statistiques anonymisées sur la fréquentation
+        du site (pages visitées, durée des visites, type d'appareil). L'adresse IP
+        est anonymisée et les données ne sont pas recoupées avec d'autres services
+        Google à des fins publicitaires. Le traitement est réalisé par Google LLC
+        et peut impliquer un transfert de données aux États-Unis encadré par les
+        clauses contractuelles types de la Commission européenne.
+      </p>
+
       <h2>Transferts hors Union européenne</h2>
       <p>
-        Certains prestataires techniques (hébergement edge, messagerie) peuvent
-        opérer une infrastructure mondiale. Les transferts éventuels sont
-        encadrés par les garanties appropriées prévues par le RGPD (clauses
-        contractuelles types de la Commission européenne).
+        Certains prestataires techniques (hébergement edge, messagerie, Google
+        Analytics) peuvent opérer une infrastructure mondiale. Les transferts
+        éventuels sont encadrés par les garanties appropriées prévues par le
+        RGPD (clauses contractuelles types de la Commission européenne).
       </p>
 
       <h2>Vos droits</h2>
