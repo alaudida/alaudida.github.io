@@ -1,7 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useState, type ReactNode } from "react";
 import perspikappsLogo from "@/assets/perspikapps-logo.png.asset.json";
-import { CookieConsent } from "@/components/CookieConsent";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -498,7 +497,6 @@ function Index() {
           </div>
         </div>
       </footer>
-      <CookieConsent />
     </div>
   );
 }
