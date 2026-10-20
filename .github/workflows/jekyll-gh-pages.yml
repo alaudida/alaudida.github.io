@@ -25,12 +25,12 @@ jobs:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
       - run: bun install --frozen-lockfile
-      # static preset: GitHub Pages cannot run the default Cloudflare/SSR output
+      # static build: GitHub Pages cannot run the default Cloudflare/SSR output
       - run: bun run build
         env:
-          NITRO_PRESET: static
+          GITHUB_PAGES: "true"
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .output/public
+          path: dist/client
       - id: deployment
         uses: actions/deploy-pages@v4
