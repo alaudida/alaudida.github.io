@@ -312,7 +312,7 @@ function Index() {
               }}
             >
               <img
-                src="/brand/perspikapps-logo.svg"
+                src="/brand/perspikapps-logo.png"
                 alt="Perspikapps"
                 width={64}
                 height={64}
