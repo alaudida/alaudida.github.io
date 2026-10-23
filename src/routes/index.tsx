@@ -1,6 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useState, type ReactNode } from "react";
-import perspikappsLogo from "@/assets/perspikapps-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -313,7 +312,7 @@ function Index() {
               }}
             >
               <img
-                src={perspikappsLogo.url}
+                src="/brand/perspikapps-logo.png"
                 alt="Perspikapps"
                 width={64}
                 height={64}
